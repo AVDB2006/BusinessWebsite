@@ -1,6 +1,100 @@
-.fa-brands fa-facebook{
-    color: #231872;
+.bedrijf_content{
+    background-color: rgb(216, 215, 215);
 }
-.fa-brands fa-instagram{
-    color: #231872;
+.bedrijfsleden_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.bedrijf_personen{
+    width: 20%;
+    height: auto;
+    min-width: 20px;
+}
+
+.bedrijf_img_werkers{
+    width: 200px;
+    height: 250px;
+    border-style: groove;
+}
+
+.content_over_ons{
+    background-color: #5E3ECA;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: none;
+    height: auto;
+}
+.afbeeldingen_over_ons{
+    width: 20%;
+    min-width:20em;
+    height: auto;
+
+}
+.content_container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+}
+.content_container_text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.services{
+    padding-top: 100px;
+    display: flex;
+}
+
+
+footer{
+    background: url(/BusinessWebsite/public/nl/afbeeldingen/lightning_background.png);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    height: 300px;
+    justify-content: space-around;
+    align-content: center;
+}
+.footer_extra{
+    background-color: #b6b1ff;
+    display: flex;
+    width: 33%;
+    min-width: 100px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_contact{
+    background-color: #b6b1ff;
+    width: 34%;
+    min-width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.footer_social_media{
+    background-color: #b6b1ff;
+    width: 33%;
+    min-width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_social_media img{
+    width: 3%;
+    height: auto;
+    min-width: 50px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 100%;
+    background-color: #301ea8;
 }
